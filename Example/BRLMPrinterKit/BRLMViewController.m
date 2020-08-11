@@ -7,8 +7,12 @@
 //
 
 #import "BRLMViewController.h"
+#import <BRLMPrinterKit/BRLMPrinterKit.h>
+#import <BRLMPrinterKit/BRPtouchBluetoothManager.h>
 
-@interface BRLMViewController ()
+@interface BRLMViewController () {
+    BRPtouchNetworkManager *_networkManager;
+}
 
 @end
 
@@ -17,13 +21,29 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self startDiscovery];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)startDiscovery
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    _networkManager = [BRPtouchNetworkManager new];
+    _networkManager.delegate = self;
+    int ret = [_networkManager startSearch:5];
+    if (ret == RET_TRUE) {
+        NSLog(@"startDiscovery succeed");
+    }
+    else {
+        NSLog(@"startDiscovery failed");
+    }
+}
+
+- (void)didFinishSearch:(BRPtouchNetworkManager *)manager {
+    NSArray<BRPtouchDeviceInfo *> *devices = [manager getPrinterNetInfo];
+    NSLog(@"Search finished, found %ld device(s)", devices.count);
+
+    for (BRPtouchDeviceInfo *deviceInfo in devices) {
+        NSLog(@"WIFI Model: %@, IP Address: %@, serialNumer: %@", deviceInfo.strModelName, deviceInfo.strIPAddress, deviceInfo.strSerialNumber);
+    }
 }
 
 @end

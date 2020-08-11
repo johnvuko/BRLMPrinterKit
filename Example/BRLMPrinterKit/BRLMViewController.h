@@ -6,8 +6,10 @@
 //  Copyright (c) 2020 Jonathan VUKOVICH-TRIBOUHARET. All rights reserved.
 //
 
+#import <BRLMPrinterKit/BRPtouchNetworkManager.h>
+
 @import UIKit;
 
-@interface BRLMViewController : UIViewController
+@interface BRLMViewController : UIViewController<BRPtouchNetworkDelegate>
 
 @end
