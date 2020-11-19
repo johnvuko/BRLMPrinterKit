@@ -1,5 +1,5 @@
 PODS:
-  - BRLMPrinterKit (4.0.1)
+  - BRLMPrinterKit (4.0.2)
 
 DEPENDENCIES:
   - BRLMPrinterKit (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BRLMPrinterKit: 64439e29c4aea228644aba6bdf1d9855d65a25d9
+  BRLMPrinterKit: 24c82809ea831831b11783ec3325a51f8e67ffec
 
-PODFILE CHECKSUM: 9dd8e876ea0e5693dfd19b1bcb091f9167f9e0f4
+PODFILE CHECKSUM: e0501ceab8fa770ffdeefb81c4692a4c082f261e
 
 COCOAPODS: 1.9.3

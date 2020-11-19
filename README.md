@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/BRLMPrinterKit.svg?style=flat)](https://cocoapods.org/pods/BRLMPrinterKit)
 [![Platform](https://img.shields.io/cocoapods/p/BRLMPrinterKit.svg?style=flat)](https://cocoapods.org/pods/BRLMPrinterKit)
 
-This project is only a Pod for the Brother SDK v4.0.1.
+This project is only a Pod for the Brother SDK v4.0.2.
 
 More information here:
 [https://support.brother.com/g/s/es/htmldoc/mobilesdk/index.html](https://support.brother.com/g/s/es/htmldoc/mobilesdk/index.html)
