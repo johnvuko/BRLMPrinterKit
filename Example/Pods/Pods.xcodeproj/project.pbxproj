@@ -3,14 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
 		4CC1C84505DC66B7576B2DF6763D4DA2 /* BRLMPrinterKit */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2C009D86CA18BC8AF67E7C13DA2B3E7E /* Build configuration list for PBXAggregateTarget "BRLMPrinterKit" */;
+			buildConfigurationList = F75FBB720D66B5CB8D4527FC52CBAF6E /* Build configuration list for PBXAggregateTarget "BRLMPrinterKit" */;
 			buildPhases = (
+				918D5336C5B17AF93FF030F5651E41B4 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -19,13 +20,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		02954F7A95ADF82FF849244B59319105 /* Pods-BRLMPrinterKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 104BB1F2D4766BBC851BAB82A60D3B22 /* Pods-BRLMPrinterKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE55D981C78AD4D22A1337F6598640B6 /* Pods-BRLMPrinterKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A48E33FA938F308626E7CF1EB4F946FB /* Pods-BRLMPrinterKit_Example-dummy.m */; };
-		BA9128C2D24BB881B839388AF5F66730 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		62C824080FBE2096CB19CFE791BC7382 /* Pods-BRLMPrinterKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A48E33FA938F308626E7CF1EB4F946FB /* Pods-BRLMPrinterKit_Example-dummy.m */; };
+		ACDEBE7373BC249308F78DEE57C523AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E09E32019FE683C2655E30E4F2684277 /* Pods-BRLMPrinterKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 104BB1F2D4766BBC851BAB82A60D3B22 /* Pods-BRLMPrinterKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9A21B8DDDEAB9D8CE2073C98AAEA4222 /* PBXContainerItemProxy */ = {
+		1266155C9AF7C07BF66216EB7ED46B4F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,54 +36,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0957394F15423E4BDC2E08347317BECD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		09DB2845FBEFDF13D5C21F259C47A2B9 /* Pods-BRLMPrinterKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BRLMPrinterKit_Example.modulemap"; sourceTree = "<group>"; };
-		0E57326A3C757BC2886B27EA3F68CF1F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		104BB1F2D4766BBC851BAB82A60D3B22 /* Pods-BRLMPrinterKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BRLMPrinterKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		139BBB5A689B91497719B0182B3CD093 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		13D2B60640D1A41FF652033652980100 /* Pods-BRLMPrinterKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BRLMPrinterKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		175DEE0D8E9D3ADE43CC2E2391336101 /* BRLMPrinterKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BRLMPrinterKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		24865FFAB2747C5270355A07D8632A58 /* Pods-BRLMPrinterKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BRLMPrinterKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3D3744EF85167B71AB1247249C201D70 /* Pods_BRLMPrinterKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BRLMPrinterKit_Example.framework; path = "Pods-BRLMPrinterKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7E9EEBF0E2F1E1142BA3C19AB6D2BC /* BRLMPrinterKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = BRLMPrinterKit.xcframework; path = BRLMPrinterKit/BRLMPrinterKit.xcframework; sourceTree = "<group>"; };
+		3D3744EF85167B71AB1247249C201D70 /* Pods-BRLMPrinterKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BRLMPrinterKit_Example"; path = Pods_BRLMPrinterKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F39DB7DDF7A9B55A7D8726B31823160 /* BRLMPrinterKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRLMPrinterKit.debug.xcconfig; sourceTree = "<group>"; };
+		44D680BD5D6523A3031A37012C6330DD /* BRLMPrinterKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRLMPrinterKit.release.xcconfig; sourceTree = "<group>"; };
+		4B1AA7EF83A9B0CBD8F2B1AB4250BEFE /* BRLMPrinterKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "BRLMPrinterKit-xcframeworks.sh"; sourceTree = "<group>"; };
 		4B6588E176C2D4C8E27C77F466763C3B /* Pods-BRLMPrinterKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BRLMPrinterKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		96549AECC45FCC484658BEEA712568C0 /* BRLMPrinterKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BRLMPrinterKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A48E33FA938F308626E7CF1EB4F946FB /* Pods-BRLMPrinterKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BRLMPrinterKit_Example-dummy.m"; sourceTree = "<group>"; };
 		A587069B0545A00C912D7B9C7D9F7525 /* Pods-BRLMPrinterKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BRLMPrinterKit_Example-Info.plist"; sourceTree = "<group>"; };
-		A5C61CCBFD619DD2337230C23ED6831A /* BRLMPrinterKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRLMPrinterKit.debug.xcconfig; sourceTree = "<group>"; };
 		B542DEE67A09AE58E2119E4A8FDFC18D /* Pods-BRLMPrinterKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BRLMPrinterKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D361BDB23167CFADE2003693831CA356 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DBA6A5E7A00D2BA0350DD6F1804CAD20 /* Pods-BRLMPrinterKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BRLMPrinterKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DE4E9956E8EBC6550A4012581A93E2D5 /* BRLMPrinterKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRLMPrinterKit.release.xcconfig; sourceTree = "<group>"; };
-		DF063997ABEE37A0C335F774F1242341 /* BRLMPrinterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRLMPrinterKit.framework; path = BRLMPrinterKit/BRLMPrinterKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7D9EE601650E03A9B187135529AE8DC6 /* Frameworks */ = {
+		A8C7C72B7E8C36935619EDE8B97AD7A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA9128C2D24BB881B839388AF5F66730 /* Foundation.framework in Frameworks */,
+				ACDEBE7373BC249308F78DEE57C523AA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02FC900B2A03699D06CD3E7D4C33CCB7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3D3744EF85167B71AB1247249C201D70 /* Pods_BRLMPrinterKit_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2A68F45F9FCC98083C00A3DD3A185E6A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DF063997ABEE37A0C335F774F1242341 /* BRLMPrinterKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		2AE32394B27166F99CC2E240977D9025 /* Pods-BRLMPrinterKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,51 +94,58 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		452F3BC2E86C1AE08D2B4BA0945E68B4 /* Pod */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				175DEE0D8E9D3ADE43CC2E2391336101 /* BRLMPrinterKit.podspec */,
-				0957394F15423E4BDC2E08347317BECD /* LICENSE */,
-				0E57326A3C757BC2886B27EA3F68CF1F /* README.md */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		5391FFCEC20D74014C4E37A0C159DED5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A5C61CCBFD619DD2337230C23ED6831A /* BRLMPrinterKit.debug.xcconfig */,
-				DE4E9956E8EBC6550A4012581A93E2D5 /* BRLMPrinterKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BRLMPrinterKit";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		58876B18DC6704C968A8D480C69674E3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				686D8BF0B907C3C5C31B2E29789E5808 /* BRLMPrinterKit */,
+				9FD74E19C681BCE386903379D9B42F9B /* BRLMPrinterKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		686D8BF0B907C3C5C31B2E29789E5808 /* BRLMPrinterKit */ = {
+		606030446424FAC9EB83217395F2800E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2A68F45F9FCC98083C00A3DD3A185E6A /* Frameworks */,
-				452F3BC2E86C1AE08D2B4BA0945E68B4 /* Pod */,
-				5391FFCEC20D74014C4E37A0C159DED5 /* Support Files */,
+				4B1AA7EF83A9B0CBD8F2B1AB4250BEFE /* BRLMPrinterKit-xcframeworks.sh */,
+				3F39DB7DDF7A9B55A7D8726B31823160 /* BRLMPrinterKit.debug.xcconfig */,
+				44D680BD5D6523A3031A37012C6330DD /* BRLMPrinterKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BRLMPrinterKit";
+			sourceTree = "<group>";
+		};
+		655E8E8647D6333D9CE2B1085AD8255F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D3744EF85167B71AB1247249C201D70 /* Pods-BRLMPrinterKit_Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FD74E19C681BCE386903379D9B42F9B /* BRLMPrinterKit */ = {
+			isa = PBXGroup;
+			children = (
+				BE5DD418B5F4D1CA2AA72442656E09AF /* Frameworks */,
+				F9037874B216CF0B2A3FFF6CB4035E9D /* Pod */,
+				606030446424FAC9EB83217395F2800E /* Support Files */,
 			);
 			name = BRLMPrinterKit;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		BE5DD418B5F4D1CA2AA72442656E09AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				3C7E9EEBF0E2F1E1142BA3C19AB6D2BC /* BRLMPrinterKit.xcframework */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -161,7 +154,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				58876B18DC6704C968A8D480C69674E3 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				02FC900B2A03699D06CD3E7D4C33CCB7 /* Products */,
+				655E8E8647D6333D9CE2B1085AD8255F /* Products */,
 				38911F675A876B691C4CC18EC1BE903D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -169,19 +162,29 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9037874B216CF0B2A3FFF6CB4035E9D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				96549AECC45FCC484658BEEA712568C0 /* BRLMPrinterKit.podspec */,
+				139BBB5A689B91497719B0182B3CD093 /* LICENSE */,
+				D361BDB23167CFADE2003693831CA356 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EF70BA6784AF0BAA1BBC5B0BC661D0A5 /* Headers */ = {
+		FDA92E63DA28EFCEF54901E6C86D41A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02954F7A95ADF82FF849244B59319105 /* Pods-BRLMPrinterKit_Example-umbrella.h in Headers */,
+				E09E32019FE683C2655E30E4F2684277 /* Pods-BRLMPrinterKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,21 +193,21 @@
 /* Begin PBXNativeTarget section */
 		5B12235558D64DA98C047235D09177B2 /* Pods-BRLMPrinterKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 198CA8E640AF5FBAB0667A3B8847B5AC /* Build configuration list for PBXNativeTarget "Pods-BRLMPrinterKit_Example" */;
+			buildConfigurationList = 9BEBD753057AA1E963E981D12FCFEFA0 /* Build configuration list for PBXNativeTarget "Pods-BRLMPrinterKit_Example" */;
 			buildPhases = (
-				EF70BA6784AF0BAA1BBC5B0BC661D0A5 /* Headers */,
-				E3863539584E14C21D956E48D8BDBEEE /* Sources */,
-				7D9EE601650E03A9B187135529AE8DC6 /* Frameworks */,
-				8A3FBFA4AF55E949BC0FBE0938FC9C9C /* Resources */,
+				FDA92E63DA28EFCEF54901E6C86D41A9 /* Headers */,
+				B85E3B1E8C848272C3C546222C0BF603 /* Sources */,
+				A8C7C72B7E8C36935619EDE8B97AD7A1 /* Frameworks */,
+				09B8C3F9C3EF62B7D7D41BC8C107780B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3632E3CCEED4AED139FFE9C1FAB362AD /* PBXTargetDependency */,
+				D791993796308EEB5BEB8E1C810CBA15 /* PBXTargetDependency */,
 			);
 			name = "Pods-BRLMPrinterKit_Example";
-			productName = "Pods-BRLMPrinterKit_Example";
-			productReference = 3D3744EF85167B71AB1247249C201D70 /* Pods_BRLMPrinterKit_Example.framework */;
+			productName = Pods_BRLMPrinterKit_Example;
+			productReference = 3D3744EF85167B71AB1247249C201D70 /* Pods-BRLMPrinterKit_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -213,19 +216,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 02FC900B2A03699D06CD3E7D4C33CCB7 /* Products */;
+			productRefGroup = 655E8E8647D6333D9CE2B1085AD8255F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -236,7 +239,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8A3FBFA4AF55E949BC0FBE0938FC9C9C /* Resources */ = {
+		09B8C3F9C3EF62B7D7D41BC8C107780B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,33 +248,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		918D5336C5B17AF93FF030F5651E41B4 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BRLMPrinterKit/BRLMPrinterKit-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BRLMPrinterKit/BRLMPrinterKit-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/BRLMPrinterKit/BRLMPrinterKit-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		E3863539584E14C21D956E48D8BDBEEE /* Sources */ = {
+		B85E3B1E8C848272C3C546222C0BF603 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE55D981C78AD4D22A1337F6598640B6 /* Pods-BRLMPrinterKit_Example-dummy.m in Sources */,
+				62C824080FBE2096CB19CFE791BC7382 /* Pods-BRLMPrinterKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3632E3CCEED4AED139FFE9C1FAB362AD /* PBXTargetDependency */ = {
+		D791993796308EEB5BEB8E1C810CBA15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BRLMPrinterKit;
 			target = 4CC1C84505DC66B7576B2DF6763D4DA2 /* BRLMPrinterKit */;
-			targetProxy = 9A21B8DDDEAB9D8CE2073C98AAEA4222 /* PBXContainerItemProxy */;
+			targetProxy = 1266155C9AF7C07BF66216EB7ED46B4F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5DB2FCF06093A51BA0A6C233EE151D14 /* Debug */ = {
+		00DE2EC9CA1CEB763F7F51600DB7C82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F39DB7DDF7A9B55A7D8726B31823160 /* BRLMPrinterKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1794637C308FFD79DE6982A5BD28ADE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B542DEE67A09AE58E2119E4A8FDFC18D /* Pods-BRLMPrinterKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -282,8 +322,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-BRLMPrinterKit_Example/Pods-BRLMPrinterKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BRLMPrinterKit_Example/Pods-BRLMPrinterKit_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -299,24 +343,11 @@
 			};
 			name = Debug;
 		};
-		81DCA97989B9C9085DB8BBD523C749E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE4E9956E8EBC6550A4012581A93E2D5 /* BRLMPrinterKit.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -339,66 +370,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -424,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -437,12 +409,74 @@
 			};
 			name = Debug;
 		};
-		BB89421A6F5FAF0E1E75A58B1DA44807 /* Release */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D53B5AA83C4A6B8583CF9A6D1D9EA059 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B6588E176C2D4C8E27C77F466763C3B /* Pods-BRLMPrinterKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -453,8 +487,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-BRLMPrinterKit_Example/Pods-BRLMPrinterKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BRLMPrinterKit_Example/Pods-BRLMPrinterKit_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -471,45 +509,50 @@
 			};
 			name = Release;
 		};
-		CEE34C970C0D1F9FDDEE8B4F13B5A1C1 /* Debug */ = {
+		F8C9756AB044016DC5503E8092FC4DEE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5C61CCBFD619DD2337230C23ED6831A /* BRLMPrinterKit.debug.xcconfig */;
+			baseConfigurationReference = 44D680BD5D6523A3031A37012C6330DD /* BRLMPrinterKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		198CA8E640AF5FBAB0667A3B8847B5AC /* Build configuration list for PBXNativeTarget "Pods-BRLMPrinterKit_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5DB2FCF06093A51BA0A6C233EE151D14 /* Debug */,
-				BB89421A6F5FAF0E1E75A58B1DA44807 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2C009D86CA18BC8AF67E7C13DA2B3E7E /* Build configuration list for PBXAggregateTarget "BRLMPrinterKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEE34C970C0D1F9FDDEE8B4F13B5A1C1 /* Debug */,
-				81DCA97989B9C9085DB8BBD523C749E7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BEBD753057AA1E963E981D12FCFEFA0 /* Build configuration list for PBXNativeTarget "Pods-BRLMPrinterKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1794637C308FFD79DE6982A5BD28ADE3 /* Debug */,
+				D53B5AA83C4A6B8583CF9A6D1D9EA059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75FBB720D66B5CB8D4527FC52CBAF6E /* Build configuration list for PBXAggregateTarget "BRLMPrinterKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DE2EC9CA1CEB763F7F51600DB7C82D /* Debug */,
+				F8C9756AB044016DC5503E8092FC4DEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
