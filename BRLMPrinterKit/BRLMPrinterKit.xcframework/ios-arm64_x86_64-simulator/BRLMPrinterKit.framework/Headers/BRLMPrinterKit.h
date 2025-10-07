@@ -14,6 +14,7 @@
 #import <BRLMPrinterKit/BRLMError.h>
 #import <BRLMPrinterKit/BRLMOpenChannelError.h>
 #import <BRLMPrinterKit/BRLMChannel.h>
+#import <BRLMPrinterKit/BRLMChannelCredential.h>
 #import <BRLMPrinterKit/BRLMPrintError.h>
 #import <BRLMPrinterKit/BRLMGetStatusError.h>
 #import <BRLMPrinterKit/BRLMPrinterModelSpec.h>

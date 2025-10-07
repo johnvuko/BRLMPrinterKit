@@ -63,6 +63,7 @@ typedef _Nullable CGImageRef (^BRLMPrinterDriverPrintImageClosure)(void) NS_REFI
 - (BRLMTransferResult<NSURL*> *)transferDatabaseFiles:(nonnull NSArray<NSURL *> *)urls progress:(nullable void (^)(NSURL* current, int progress))progress;
 - (BRLMTransferResult<NSURL*> *)transferBinaryFiles:(nonnull NSArray<NSURL *> *)urls progress:(nullable void (^)(NSURL* current, int progress))progress;
 - (BRLMTransferResult<NSNumber*> *)transferBinaryData:(nonnull NSArray<NSData *> *)data progress:(nullable void (^)(NSNumber* index, int progress))progress;
+- (BRLMTransferResult<NSNumber*> *)transferPrinterConfigurationFiles:(nonnull NSArray<NSURL *> *)urls progress:(nullable void (^)(NSURL* current, int progress))progress;
 
 - (void)cancelPrinting;
 

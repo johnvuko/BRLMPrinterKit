@@ -30,6 +30,10 @@ typedef NS_ENUM(NSUInteger, BRLMTransferErrorCode) {
     BRLMTransferErrorCodePrinterStatusError,
     BRLMTransferErrorCodeConnectionFailed,
     BRLMTransferErrorCodeAborted,
+    BRLMTransferErrorCodeMissingCredential,
+    BRLMTransferErrorCodeInvalidCredential,
+    BRLMTransferErrorCodeExpiredCredential,
+    BRLMTransferErrorCodeMismatchedCredentialFormat,
     BRLMTransferErrorCodeUnknownError = 10199,
 };
 

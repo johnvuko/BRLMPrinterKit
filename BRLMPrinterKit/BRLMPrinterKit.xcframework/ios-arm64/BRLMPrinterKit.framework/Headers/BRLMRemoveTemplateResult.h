@@ -25,6 +25,10 @@ typedef NS_ENUM(NSInteger, BRLMRemoveTemplateErrorCode) {
     BRLMRemoveTemplateErrorCodeConnectionFailed,
     BRLMRemoveTemplateErrorCodeUnresponsiveState,
     BRLMRemoveTemplateErrorCodeAborted,
+    BRLMRemoveTemplateErrorCodeMissingCredential,
+    BRLMRemoveTemplateErrorCodeInvalidCredential,
+    BRLMRemoveTemplateErrorCodeExpiredCredential,
+    BRLMRemoveTemplateErrorCodeMismatchedCredentialFormat,
     BRLMRemoveTemplateErrorCodeUnknownError = 21199,
 };
 

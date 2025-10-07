@@ -24,6 +24,7 @@
 #import <BRLMPrinterKit/BRLMPrinterConfigRequestResult.h>
 #import <BRLMPrinterKit/BRLMPrinterConfigUpdateOrder.h>
 #import <BRLMPrinterKit/BRLMPrinterConfigUpdateResult.h>
+#import <BRLMPrinterKit/BRLMChannelCredential.h>
 
 #define ERROR_NONE_          0
 #define ERROR_TIMEOUT		-3
@@ -231,6 +232,7 @@ extern NSString *const BRMessageKey;
 - (int)getPTStatus:(PTSTATUSINFO*)status;
 - (int)getStatus:(BRPtouchPrinterStatus**)status;
 - (int)getStatus:(BRPtouchPrinterStatus**)status errorCode:(int *)errorCode;
+- (void)waitForPrinterResponce;
 - (NSString *)getModelName;
 - (NSString *)getFirmVersion;
 - (NSString *)getMediaVersion;
@@ -247,7 +249,7 @@ extern NSString *const BRMessageKey;
 - (NSDictionary<NSURL*,NSNumber*/*BRLMTransferErrorCode*/>*)transferDatabaseFiles:(NSArray*)sendFileArray dataProgress:( void (^)(NSURL* current, int progressPercentage))progressCallback;
 - (NSDictionary<NSURL*,NSNumber*/*BRLMTransferErrorCode*/>*)transferBinaryFiles:(NSArray*)sendFileArray dataProgress:( void (^)(NSURL* current, int progressPercentage))progressCallback;
 - (NSDictionary<NSNumber*,NSNumber*/*BRLMTransferErrorCode*/>*)transferBinaryData:(NSArray*)sendDataArray dataProgress:( void (^)(NSNumber* current, int progressPercentage))progressCallback;
-
+- (NSDictionary<NSURL*,NSNumber*/*BRLMTransferErrorCode*/>*)transferPrinterConfigurationFiles:(NSArray*)sendFileArray dataProgress:( void (^)(NSURL* current, int progressPercentage))progressCallback;
 
 - (int)sendTemplate:(NSString *)sendtemplateFilePath connectionType:(CONNECTION_TYPE) type;
 - (int)sendDatabase:(NSString *)databaseFilePath;
@@ -301,6 +303,8 @@ extern NSString *const BRMessageKey;
 
 - (int)setPrinterSettings:(NSDictionary*)printerSettings;
 - (int)getPrinterSettings:(NSDictionary**)printerSettings require:(NSArray*)require;
+
+- (void)setCredential:(BRLMChannelCredential*) credential;
 
 ///This api is for Brother applications. We do not recommend you to use it.
 - (BRLMPrinterConfigRequestResult*)requestPrinterConfig:(BRLMPrinterConfigRequestOrder*)order;

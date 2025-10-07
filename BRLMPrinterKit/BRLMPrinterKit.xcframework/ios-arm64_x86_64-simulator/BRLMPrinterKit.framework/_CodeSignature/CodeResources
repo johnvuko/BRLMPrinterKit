@@ -46,7 +46,11 @@
 		</data>
 		<key>Headers/BRLMChannel.h</key>
 		<data>
-		9VNhxpd+Ngbw9dZ+Yq7Su2KXwtc=
+		zM8WmFf/lEFYbGRKmLx41NjuXbk=
+		</data>
+		<key>Headers/BRLMChannelCredential.h</key>
+		<data>
+		NvSG6ya2ESikPgWqfLVluLZ2GV4=
 		</data>
 		<key>Headers/BRLMCustomPaperSize.h</key>
 		<data>
@@ -158,15 +162,15 @@
 		</data>
 		<key>Headers/BRLMPrinterDefine.h</key>
 		<data>
-		m7BUvm8dRBj0B5Yu9QDwTD1zq5w=
+		Upgr14pN5DlJGbC/8rE/rTOf+UA=
 		</data>
 		<key>Headers/BRLMPrinterDriver.h</key>
 		<data>
-		RdCc3SkTHt8vyWcQkw6VsdS1Cqk=
+		xfoo6aWd+moKhsgAsWQWTlv5cOo=
 		</data>
 		<key>Headers/BRLMPrinterDriverGenerator.h</key>
 		<data>
-		7WZ3Gug3GE2y45yzYUitBlrM9dk=
+		2DleSmEjVic5rYyXpVrgpxCO7/M=
 		</data>
 		<key>Headers/BRLMPrinterKit+BRPtouchPrinterKit+BMSPrinterKit.h</key>
 		<data>
@@ -174,11 +178,11 @@
 		</data>
 		<key>Headers/BRLMPrinterKit-Swift.h</key>
 		<data>
-		RAs9aVrcwlcAyZZy9IccnECm37U=
+		S8ey3gT/9lbk+b5a3dW9813Ws18=
 		</data>
 		<key>Headers/BRLMPrinterKit.h</key>
 		<data>
-		Q8cqOzyIPjK+9wMZHr3fra05S+I=
+		ahb4xPebU/sR101x+6USaX9lRlo=
 		</data>
 		<key>Headers/BRLMPrinterModelSpec.h</key>
 		<data>
@@ -226,7 +230,7 @@
 		</data>
 		<key>Headers/BRLMRemoveTemplateResult.h</key>
 		<data>
-		f5PC/YDFQpL6LnR5QhkZKaKRtbc=
+		6IKxQCEx9i3pszKBYmwphgl8guk=
 		</data>
 		<key>Headers/BRLMRequestPrinterInfoError.h</key>
 		<data>
@@ -254,7 +258,7 @@
 		</data>
 		<key>Headers/BRLMTransferResult.h</key>
 		<data>
-		X0QChlERQKELC8UIP09KffjZ9Xw=
+		7geklN3yrU9dt/WzICxBUNvFVYw=
 		</data>
 		<key>Headers/BRLMValidatePrintSettings.h</key>
 		<data>
@@ -274,7 +278,7 @@
 		</data>
 		<key>Headers/BRPtouchDeviceInfo.h</key>
 		<data>
-		pDR87EGJIn4FXMSD+a06gtzXjMM=
+		RTW4vc3PFXEwD+kRVmePqwBhx/o=
 		</data>
 		<key>Headers/BRPtouchLabelInfoStatus.h</key>
 		<data>
@@ -294,7 +298,7 @@
 		</data>
 		<key>Headers/BRPtouchPrinter.h</key>
 		<data>
-		f0uXIUxXUck4M4i1MCaNTEyR8kY=
+		ehnP6wzxES897q1AITNp5UttJTY=
 		</data>
 		<key>Headers/BRPtouchPrinterData.h</key>
 		<data>
@@ -602,7 +606,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zVS59ytUSQ0uScjmXbhgRGm2Uh0=
+		j8RXcx1Jtc6genFVCwgNpQnq9Ds=
 		</data>
 		<key>MarginViewController.nib</key>
 		<data>
@@ -610,43 +614,43 @@
 		</data>
 		<key>Modules/BRLMPrinterKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		1P7fAvKl4b1++LRNemtcIGQshHM=
+		QaNuGyU6VXJkYTwwB1LgTcLM9kU=
 		</data>
 		<key>Modules/BRLMPrinterKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		i7iUs++MjlB5SZWG+nI+RenUszk=
+		F11u7IfEkC8qJsNV8FajUR643Yc=
 		</data>
 		<key>Modules/BRLMPrinterKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4CP/qaQXTohgZlD+lZNNfYm/sJ0=
+		pLVlBn8ttT8zvp2sGw63jOwgYjo=
 		</data>
 		<key>Modules/BRLMPrinterKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		i7iUs++MjlB5SZWG+nI+RenUszk=
+		F11u7IfEkC8qJsNV8FajUR643Yc=
 		</data>
 		<key>Modules/BRLMPrinterKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NuWR06BvlbRjhq9zE8lCl66ex3U=
+		B4EVgnq59v76KpCy+cdyfUSe/Ok=
 		</data>
 		<key>Modules/BRLMPrinterKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		1P7fAvKl4b1++LRNemtcIGQshHM=
+		QaNuGyU6VXJkYTwwB1LgTcLM9kU=
 		</data>
 		<key>Modules/BRLMPrinterKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ubk409fVH11YpmX9ytdwHcrRGbo=
+		rQllDEjniUJOuA6FJNr6gm2WpL8=
 		</data>
 		<key>Modules/BRLMPrinterKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BzUEnu/ODsTESp2t1X7TvNruWho=
+		GcsvT9ozHFBExYskMTlzapqVsKA=
 		</data>
 		<key>Modules/BRLMPrinterKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ubk409fVH11YpmX9ytdwHcrRGbo=
+		rQllDEjniUJOuA6FJNr6gm2WpL8=
 		</data>
 		<key>Modules/BRLMPrinterKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		m97HZLTmoVvBjMKSaYljL0arUro=
+		gvMPcRZ5QbBtSasrX8WpSf9bdA8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -716,9 +720,17 @@
 		<data>
 		Xwb8WUVvUyAOAc7S3jIuGO+cESg=
 		</data>
+		<key>bsr3235ad.txt</key>
+		<data>
+		hvdXfbisftrz3baZVi/Z+eLmG0w=
+		</data>
 		<key>bsr323ad.txt</key>
 		<data>
 		5BDxTM8v4w4D6r1I/bfwy5zbLBE=
+		</data>
+		<key>bsr3255ad.txt</key>
+		<data>
+		xTnBhkiGnGUtULpxnavj4GZflM4=
 		</data>
 		<key>bsr325ad.txt</key>
 		<data>
@@ -740,9 +752,17 @@
 		<data>
 		6VnJusF0wbJbWDEnuPpd0aPvf1g=
 		</data>
+		<key>bsr4235ad.txt</key>
+		<data>
+		GdKYZGpkb4Dwffbq8ZrBkfAk4XA=
+		</data>
 		<key>bsr423ad.txt</key>
 		<data>
 		QR6MoMdhu00RAAwj3aHE51Fq1nI=
+		</data>
+		<key>bsr4255ad.txt</key>
+		<data>
+		x257IO9aYqPk4GPEuElmcSnmcF4=
 		</data>
 		<key>bsr425ad.txt</key>
 		<data>
@@ -828,21 +848,49 @@
 		<data>
 		WxKDOg2uUcEBUVYsauwwwSJ0W1U=
 		</data>
+		<key>bst4415ad.txt</key>
+		<data>
+		NGk7HWDa+EA6bOO+uDOItfxFaEo=
+		</data>
 		<key>bst441ad.txt</key>
 		<data>
 		0hAiMJ5bZET1zIY0+YmBb7Y5HCw=
+		</data>
+		<key>bst4425ad.txt</key>
+		<data>
+		OPAz1L0aDlCVReZPlHEtDzDXw1g=
+		</data>
+		<key>bst4425fad.txt</key>
+		<data>
+		MXOzvoRpKlXdLlHJwm1xQlUJE4w=
 		</data>
 		<key>bst442ad.txt</key>
 		<data>
 		l+S9FQFAmXmwzeBa/g0Gjuni5jU=
 		</data>
+		<key>bst4455ad.txt</key>
+		<data>
+		fMSqI5RfJ4Ilx/XJHWDIVwJkmJU=
+		</data>
 		<key>bst451ad.txt</key>
 		<data>
 		FXx2NpoqfmFIa3uv83JQYfofDzY=
 		</data>
+		<key>bst4525ad.txt</key>
+		<data>
+		V9yNnUCv0r22clzKsNJQ9M00Hbs=
+		</data>
 		<key>bst452ad.txt</key>
 		<data>
 		cCukAtk9JBFIJiOr5yB17FaQo/Y=
+		</data>
+		<key>bst4555ad.txt</key>
+		<data>
+		ONJuKSAMBeI+dRgOqg6oHYry1YE=
+		</data>
+		<key>bst4555fad.txt</key>
+		<data>
+		1aENWngp4fvhuqD1FsNuCswoiDI=
 		</data>
 		<key>bst455ad.txt</key>
 		<data>
@@ -942,7 +990,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2JRkjayjcwN/sXeu85XL5otJsgffVhz5tTiui6zOGu8=
+			CsBm/P/T8bifiSnwVR16nHjotnEomXHeqpW10A+nK+8=
+			</data>
+		</dict>
+		<key>Headers/BRLMChannelCredential.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NW7uzCLyPHumizrf4So8AzfnHfVrtRLvapiYj3IYyMc=
 			</data>
 		</dict>
 		<key>Headers/BRLMCustomPaperSize.h</key>
@@ -1138,21 +1193,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PSd6v9rdPkJQGToTs/GaAmkCT7MJuy4TB8HoDQ0dqCw=
+			Jrv3I+P+rAcmXRfGBQpyZfWKtSYzKEYzoy8nS54ZtA4=
 			</data>
 		</dict>
 		<key>Headers/BRLMPrinterDriver.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vygU8fdgKeaAUstFFVUUzwxrX2jdmNKDOMZVCQqG2dM=
+			euSaReaUvK+RmL0Lbp1hBdiUij74ekafSbNZNolYarg=
 			</data>
 		</dict>
 		<key>Headers/BRLMPrinterDriverGenerator.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oJVSItluPY7kd4HLbN5iactrXXEJQZixHPPB33F1olM=
+			oHqtztVmcI3Jn/VGujO2TcwsC4r0t/WYD59yVAjPZlU=
 			</data>
 		</dict>
 		<key>Headers/BRLMPrinterKit+BRPtouchPrinterKit+BMSPrinterKit.h</key>
@@ -1166,14 +1221,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BbVUI9CjEAWuOJ44RFB9h0nt5hNJH6yiOHcv1URwwE0=
+			Fx/NqmGFjvIQtT9wBICIYAircdiOqcjrOndDfLGW1Lg=
 			</data>
 		</dict>
 		<key>Headers/BRLMPrinterKit.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HN4tCYUyfWHOGd4yov2m0GG5a0vGMFnZgs4QWpOjApI=
+			cjRaVLN8YwM7OKUJ5Uyk1HO+6pbYLpRo0/jruKvIWa4=
 			</data>
 		</dict>
 		<key>Headers/BRLMPrinterModelSpec.h</key>
@@ -1257,7 +1312,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mvUEG+HT3jq9+XOYU3sm0kvTR8+eTmlnv81QBanRQ2Q=
+			btd+p7668vmx+Kzx9Llo1x5NFm9SFAS4kh8qHTyUdfw=
 			</data>
 		</dict>
 		<key>Headers/BRLMRequestPrinterInfoError.h</key>
@@ -1306,7 +1361,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vfcPROTBWvfV99gf2in7t9amoi29Z/5OmA59+3kVUyQ=
+			RyhG8KjEeB5ejWs7lFCAfR08qyLi30BzvZ6yZjDLFi0=
 			</data>
 		</dict>
 		<key>Headers/BRLMValidatePrintSettings.h</key>
@@ -1341,7 +1396,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XUlWEIJ2ckYMjIovmhh2WEWGbttgPcdYEaQbYNLG7ZU=
+			R18nlKP4fgpRQSrgsclUggCm9uWEY1WOOkmFogHlUcQ=
 			</data>
 		</dict>
 		<key>Headers/BRPtouchLabelInfoStatus.h</key>
@@ -1376,7 +1431,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qTeW1MGAHxG+AgIfG1V1LxdiIwDaLjxQZbn4puMPeBY=
+			I12m3rZH9wMmTMctEsyHvGNm9n9nxW6YqSq360ren5A=
 			</data>
 		</dict>
 		<key>Headers/BRPtouchPrinterData.h</key>
@@ -1922,70 +1977,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WTvF5lN+na/5AFjEG4K3kMh2l2CDEdZ7OTc8RVlkRSU=
+			xKxkCv79mRBZuFIDa6uM5vMlE7Wn+l1RKcKYEMUeW+k=
 			</data>
 		</dict>
 		<key>Modules/BRLMPrinterKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A9fZM43L8nCNSTRhxXtdviARQzLEOiYoiNCwcPEnDvc=
+			k2HR/Lyqy1eTuG/Wczppuz0y7cbLNrAIGy/o9Lnj5BI=
 			</data>
 		</dict>
 		<key>Modules/BRLMPrinterKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CtZAItes0O2rG4xFfER654NjGOT344BTD2q06M3Ykm0=
+			8gHGbKw2y9XFnpJjdeIjq5OhXt11DTKpfA/L9O6TDvI=
 			</data>
 		</dict>
 		<key>Modules/BRLMPrinterKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A9fZM43L8nCNSTRhxXtdviARQzLEOiYoiNCwcPEnDvc=
+			k2HR/Lyqy1eTuG/Wczppuz0y7cbLNrAIGy/o9Lnj5BI=
 			</data>
 		</dict>
 		<key>Modules/BRLMPrinterKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S/p61usHphQqwiJATEvTf5b++zNftOEWqtRiKg/aAUY=
+			G0JarZ00XqbK78IenrBKBJ+kLh7kAolrbkHkbnRhegE=
 			</data>
 		</dict>
 		<key>Modules/BRLMPrinterKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WTvF5lN+na/5AFjEG4K3kMh2l2CDEdZ7OTc8RVlkRSU=
+			xKxkCv79mRBZuFIDa6uM5vMlE7Wn+l1RKcKYEMUeW+k=
 			</data>
 		</dict>
 		<key>Modules/BRLMPrinterKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5XdSxKWe7p3nOVN6/NUeoVMFiX21NXaB47zpLfZPAvA=
+			3A54V1SUpXgviQy099+x8eOEy/zv3DdUsttTiG2AikQ=
 			</data>
 		</dict>
 		<key>Modules/BRLMPrinterKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uJm/+JeqSnkOHrFQIks610iIAxMQgiqKG6T9sQnDrmU=
+			ELgZGSqJSpBodMppLYQvEnByGJF3lpw14lx0v/jeU10=
 			</data>
 		</dict>
 		<key>Modules/BRLMPrinterKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5XdSxKWe7p3nOVN6/NUeoVMFiX21NXaB47zpLfZPAvA=
+			3A54V1SUpXgviQy099+x8eOEy/zv3DdUsttTiG2AikQ=
 			</data>
 		</dict>
 		<key>Modules/BRLMPrinterKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qJxBQ7OkPAH2AXgESd35OtFyh2AgWerjDjxkO89OLtA=
+			hdG1cdO7QEXZr+QCPVcepndR2AbJ/Amv8+I4/lrJDZ4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2107,11 +2162,25 @@
 			m99iVfRmLxwiMTviRN2wva57NJu1BOs/Or3OPZFtpVM=
 			</data>
 		</dict>
+		<key>bsr3235ad.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lFKTrMp2z+XlkRirmDBlifiA9rFlNzwCnsOZCPXD+LA=
+			</data>
+		</dict>
 		<key>bsr323ad.txt</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			3thuCbBTORg93UsDy3iauIe6WZupLw9BUyKcCcUFQVc=
+			</data>
+		</dict>
+		<key>bsr3255ad.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jAQRgJC6sTPL8XytOoA12mLTUU/QpsRm5WaA+obbIVQ=
 			</data>
 		</dict>
 		<key>bsr325ad.txt</key>
@@ -2149,11 +2218,25 @@
 			L+61U+2rPxb8EXBYToPGof75T0tTxq5jhPO72zE35Fw=
 			</data>
 		</dict>
+		<key>bsr4235ad.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Jms85uxW/SE3BVhze41kLFj5fwWjdZOY5X2fXtaF9D0=
+			</data>
+		</dict>
 		<key>bsr423ad.txt</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			9geoXXBZutXRQgudxKjdKE3gFxMjt62YBYrtVkMny5Y=
+			</data>
+		</dict>
+		<key>bsr4255ad.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DRBJtiLeexuOlEazxLBJyvAfMVnpu/5fOvmkdWTwZqY=
 			</data>
 		</dict>
 		<key>bsr425ad.txt</key>
@@ -2303,11 +2386,32 @@
 			EhbMKGhMtvyaH6PXpchLkEJVklhnOFHjXq+sh9okRRo=
 			</data>
 		</dict>
+		<key>bst4415ad.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sIKv0GL7O4GBjzUljQDWuTv3Igf2Kgr0X1vPZNtdXTI=
+			</data>
+		</dict>
 		<key>bst441ad.txt</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			WxFmLGIu7FNJJQdxT0+GHggb2eFIC496dOM+EiwrzQY=
+			</data>
+		</dict>
+		<key>bst4425ad.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/Nu6xrBjcSt+M2iOZTWd/NgmnjlikH+rtza1QSsKin4=
+			</data>
+		</dict>
+		<key>bst4425fad.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/tinXyoUOK+xG0w1LUMTOEVspm6jvefY3UlR0BMLR/8=
 			</data>
 		</dict>
 		<key>bst442ad.txt</key>
@@ -2317,6 +2421,13 @@
 			nDBUp71JqGdPY0ivvxwZucseer8U4DaPn3cKlb4qCko=
 			</data>
 		</dict>
+		<key>bst4455ad.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8gA1KE8HEHD/23zpW3DAATKIk+Kuu+hQklLMmLmgEb8=
+			</data>
+		</dict>
 		<key>bst451ad.txt</key>
 		<dict>
 			<key>hash2</key>
@@ -2324,11 +2435,32 @@
 			hfl1ojvqHOHtOa3u+BFqY2AyU78cc+yb4d9l+pymvhE=
 			</data>
 		</dict>
+		<key>bst4525ad.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4gdhJWjmT0eFRvUbSsSi/GBI9SaCW2AJs/RaFMvb2xs=
+			</data>
+		</dict>
 		<key>bst452ad.txt</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			9ThpIGOrI0vKuhnDh4J9sk9JSqx3WjK79dONOIB7N+Q=
+			</data>
+		</dict>
+		<key>bst4555ad.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/ZiBUeNAggILmx4TYgbihT3ARSX9SBcBQ95syPjOwCo=
+			</data>
+		</dict>
+		<key>bst4555fad.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ntlFCg6XZdGdIMPqmZ7Wwg4uoFwSkrhy0lC9BGVle0M=
 			</data>
 		</dict>
 		<key>bst455ad.txt</key>
